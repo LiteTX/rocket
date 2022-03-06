@@ -38,6 +38,14 @@ fisrt_name: {
     type: String,
     default: '00.00'
   },
+  todaysprofit:{
+    type: String,
+    default: '00.00'
+  },
+  todaysloss:{
+    type: String,
+    default: '00.00'
+  },
   plantype:{
     type: String,
     default: 'undefined'
@@ -45,10 +53,6 @@ fisrt_name: {
   variant:{
     type: String,
     default: "undefined"
-  },
-  tatalinvestment:{
-    type: Number,
-    default: 0
   },
   referacount :{
     type: Number,
